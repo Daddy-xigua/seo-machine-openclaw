@@ -1,0 +1,67 @@
+# Git 忽略文件
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OpenClaw
+*.jsonl
+*.checkpoint
+*.reset
+sessions/
+logs/
+
+# Config (keep examples, ignore actual configs)
+context/*.md
+!context/*.md.example
+.config/*
+!.config/*.example
+
+# Output
+research/*.md
+drafts/*.md
+rewrites/*.md
+published/*.md
+audits/*.md
+!examples/*.md.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
